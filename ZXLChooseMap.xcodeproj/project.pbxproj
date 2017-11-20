@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92C5872E1FBA8CD500D00BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C5872D1FBA8CD500D00BC1 /* main.m */; };
+		92C587311FBA8CD500D00BC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C587301FBA8CD500D00BC1 /* AppDelegate.m */; };
+		92C587391FBA8CD500D00BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C587381FBA8CD500D00BC1 /* Assets.xcassets */; };
+		92C5873C1FBA8CD500D00BC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C5873A1FBA8CD500D00BC1 /* LaunchScreen.storyboard */; };
+		92C5890D1FBA928B00D00BC1 /* CusNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C589001FBA928B00D00BC1 /* CusNavigationViewController.m */; };
+		92C5890E1FBA928B00D00BC1 /* CusTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C589021FBA928B00D00BC1 /* CusTabBarViewController.m */; };
+		92C58A0E1FBA954C00D00BC1 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C58A0D1FBA954C00D00BC1 /* BaseView.m */; };
+		92E7AA7B1FBDBB0200C85BF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E7AA7A1FBDBB0200C85BF1 /* SystemConfiguration.framework */; };
+		92E7AB281FC2B5CB00C85BF1 /* LocationSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E7AB271FC2B5CB00C85BF1 /* LocationSelectViewController.m */; };
+		92E7AB2B1FC2B5D500C85BF1 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E7AB2A1FC2B5D500C85BF1 /* Model.m */; };
+		92E7AB2E1FC2BEAF00C85BF1 /* LocalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E7AB2C1FC2BEAF00C85BF1 /* LocalManager.m */; };
+		92E7AB311FC2C00200C85BF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E7AB301FC2C00200C85BF1 /* ViewController.m */; };
+		92E7AB331FC2C88D00C85BF1 /* git.gif in Resources */ = {isa = PBXBuildFile; fileRef = 92E7AB321FC2C88D00C85BF1 /* git.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1550802450C81E76D075EE34 /* Pods-ZXLChoosePhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXLChoosePhoto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZXLChoosePhoto/Pods-ZXLChoosePhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		2AA7588DDE8AD0F838D2783B /* libPods-ZXLChoosePhoto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZXLChoosePhoto.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F820509895B5E50AF52EDFA /* Pods-ePayProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ePayProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ePayProject/Pods-ePayProject.debug.xcconfig"; sourceTree = "<group>"; };
+		4FF92B585D3821C47D0CF993 /* libPods-ePayProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ePayProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C587291FBA8CD500D00BC1 /* ZXLChooseMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXLChooseMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C5872D1FBA8CD500D00BC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92C5872F1FBA8CD500D00BC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92C587301FBA8CD500D00BC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92C587381FBA8CD500D00BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92C5873B1FBA8CD500D00BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92C5873D1FBA8CD500D00BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C588871FBA8DAB00D00BC1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		92C588FF1FBA928B00D00BC1 /* CusNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusNavigationViewController.h; sourceTree = "<group>"; };
+		92C589001FBA928B00D00BC1 /* CusNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusNavigationViewController.m; sourceTree = "<group>"; };
+		92C589011FBA928B00D00BC1 /* CusTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusTabBarViewController.h; sourceTree = "<group>"; };
+		92C589021FBA928B00D00BC1 /* CusTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusTabBarViewController.m; sourceTree = "<group>"; };
+		92C58A0C1FBA954C00D00BC1 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		92C58A0D1FBA954C00D00BC1 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		92E7AA761FBDBAD100C85BF1 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		92E7AA781FBDBAE900C85BF1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		92E7AA7A1FBDBB0200C85BF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		92E7AB261FC2B5CB00C85BF1 /* LocationSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationSelectViewController.h; sourceTree = "<group>"; };
+		92E7AB271FC2B5CB00C85BF1 /* LocationSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationSelectViewController.m; sourceTree = "<group>"; };
+		92E7AB291FC2B5D500C85BF1 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		92E7AB2A1FC2B5D500C85BF1 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		92E7AB2C1FC2BEAF00C85BF1 /* LocalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalManager.m; sourceTree = "<group>"; };
+		92E7AB2D1FC2BEAF00C85BF1 /* LocalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalManager.h; sourceTree = "<group>"; };
+		92E7AB2F1FC2C00200C85BF1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92E7AB301FC2C00200C85BF1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92E7AB321FC2C88D00C85BF1 /* git.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = git.gif; sourceTree = "<group>"; };
+		C457A05FE65B047F97DDE27B /* Pods-ePayProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ePayProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ePayProject/Pods-ePayProject.release.xcconfig"; sourceTree = "<group>"; };
+		D212FAC5933A1A0A427ECE5F /* Pods-ZXLChoosePhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXLChoosePhoto.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXLChoosePhoto/Pods-ZXLChoosePhoto.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C587261FBA8CD500D00BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E7AA7B1FBDBB0200C85BF1 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65FC7DE8B8F9AEC10BFD7290 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F820509895B5E50AF52EDFA /* Pods-ePayProject.debug.xcconfig */,
+				C457A05FE65B047F97DDE27B /* Pods-ePayProject.release.xcconfig */,
+				1550802450C81E76D075EE34 /* Pods-ZXLChoosePhoto.debug.xcconfig */,
+				D212FAC5933A1A0A427ECE5F /* Pods-ZXLChoosePhoto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79B5BF91648B7A5E427A1E31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92E7AA7A1FBDBB0200C85BF1 /* SystemConfiguration.framework */,
+				92E7AA781FBDBAE900C85BF1 /* AVFoundation.framework */,
+				92E7AA761FBDBAD100C85BF1 /* Photos.framework */,
+				4FF92B585D3821C47D0CF993 /* libPods-ePayProject.a */,
+				2AA7588DDE8AD0F838D2783B /* libPods-ZXLChoosePhoto.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92C587201FBA8CD500D00BC1 = {
+			isa = PBXGroup;
+			children = (
+				92C5872B1FBA8CD500D00BC1 /* ePayProject */,
+				92C5872A1FBA8CD500D00BC1 /* Products */,
+				65FC7DE8B8F9AEC10BFD7290 /* Pods */,
+				79B5BF91648B7A5E427A1E31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92C5872A1FBA8CD500D00BC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C587291FBA8CD500D00BC1 /* ZXLChooseMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C5872B1FBA8CD500D00BC1 /* ePayProject */ = {
+			isa = PBXGroup;
+			children = (
+				92E7AAD91FC0385C00C85BF1 /* BaseClass */,
+				92C588FE1FBA928B00D00BC1 /* BaseViewController */,
+				92C58A351FBAA5C900D00BC1 /* ViewController */,
+				92C5872F1FBA8CD500D00BC1 /* AppDelegate.h */,
+				92C587301FBA8CD500D00BC1 /* AppDelegate.m */,
+				92C587381FBA8CD500D00BC1 /* Assets.xcassets */,
+				92C5873A1FBA8CD500D00BC1 /* LaunchScreen.storyboard */,
+				92C5873D1FBA8CD500D00BC1 /* Info.plist */,
+				92C5872C1FBA8CD500D00BC1 /* Supporting Files */,
+			);
+			path = ePayProject;
+			sourceTree = "<group>";
+		};
+		92C5872C1FBA8CD500D00BC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92E7AB321FC2C88D00C85BF1 /* git.gif */,
+				92C588871FBA8DAB00D00BC1 /* PrefixHeader.pch */,
+				92C5872D1FBA8CD500D00BC1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92C588FE1FBA928B00D00BC1 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92C588FF1FBA928B00D00BC1 /* CusNavigationViewController.h */,
+				92C589001FBA928B00D00BC1 /* CusNavigationViewController.m */,
+				92C589011FBA928B00D00BC1 /* CusTabBarViewController.h */,
+				92C589021FBA928B00D00BC1 /* CusTabBarViewController.m */,
+				92C58A0C1FBA954C00D00BC1 /* BaseView.h */,
+				92C58A0D1FBA954C00D00BC1 /* BaseView.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		92C58A351FBAA5C900D00BC1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92E7AB261FC2B5CB00C85BF1 /* LocationSelectViewController.h */,
+				92E7AB271FC2B5CB00C85BF1 /* LocationSelectViewController.m */,
+				92E7AB2F1FC2C00200C85BF1 /* ViewController.h */,
+				92E7AB301FC2C00200C85BF1 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		92E7AAD91FC0385C00C85BF1 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				92E7AB2D1FC2BEAF00C85BF1 /* LocalManager.h */,
+				92E7AB2C1FC2BEAF00C85BF1 /* LocalManager.m */,
+				92E7AB291FC2B5D500C85BF1 /* Model.h */,
+				92E7AB2A1FC2B5D500C85BF1 /* Model.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C587281FBA8CD500D00BC1 /* ZXLChooseMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C587401FBA8CD500D00BC1 /* Build configuration list for PBXNativeTarget "ZXLChooseMap" */;
+			buildPhases = (
+				5CFAC99D6B00B268BC1DEB15 /* [CP] Check Pods Manifest.lock */,
+				92C587251FBA8CD500D00BC1 /* Sources */,
+				92C587261FBA8CD500D00BC1 /* Frameworks */,
+				92C587271FBA8CD500D00BC1 /* Resources */,
+				B5FA6E5A604088C89AE675B0 /* [CP] Embed Pods Frameworks */,
+				F3FFDC1B8C6243536D86D900 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXLChooseMap;
+			productName = ePayProject;
+			productReference = 92C587291FBA8CD500D00BC1 /* ZXLChooseMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C587211FBA8CD500D00BC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.bandou.app.epay;
+				TargetAttributes = {
+					92C587281FBA8CD500D00BC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6GM4475WAQ;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 92C587241FBA8CD500D00BC1 /* Build configuration list for PBXProject "ZXLChooseMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92C587201FBA8CD500D00BC1;
+			productRefGroup = 92C5872A1FBA8CD500D00BC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C587281FBA8CD500D00BC1 /* ZXLChooseMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C587271FBA8CD500D00BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E7AB331FC2C88D00C85BF1 /* git.gif in Resources */,
+				92C5873C1FBA8CD500D00BC1 /* LaunchScreen.storyboard in Resources */,
+				92C587391FBA8CD500D00BC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CFAC99D6B00B268BC1DEB15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5FA6E5A604088C89AE675B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXLChoosePhoto/Pods-ZXLChoosePhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3FFDC1B8C6243536D86D900 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXLChoosePhoto/Pods-ZXLChoosePhoto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C587251FBA8CD500D00BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E7AB311FC2C00200C85BF1 /* ViewController.m in Sources */,
+				92E7AB281FC2B5CB00C85BF1 /* LocationSelectViewController.m in Sources */,
+				92C5890E1FBA928B00D00BC1 /* CusTabBarViewController.m in Sources */,
+				92C58A0E1FBA954C00D00BC1 /* BaseView.m in Sources */,
+				92E7AB2B1FC2B5D500C85BF1 /* Model.m in Sources */,
+				92C5890D1FBA928B00D00BC1 /* CusNavigationViewController.m in Sources */,
+				92C587311FBA8CD500D00BC1 /* AppDelegate.m in Sources */,
+				92C5872E1FBA8CD500D00BC1 /* main.m in Sources */,
+				92E7AB2E1FC2BEAF00C85BF1 /* LocalManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92C5873A1FBA8CD500D00BC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C5873B1FBA8CD500D00BC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92C5873E1FBA8CD500D00BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92C5873F1FBA8CD500D00BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C587411FBA8CD500D00BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1550802450C81E76D075EE34 /* Pods-ZXLChoosePhoto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6GM4475WAQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ePayProject/ThirdParty/sdk",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = ePayProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ePayProject/ThirdParty/sdk/UMessage_Sdk_1.5.0a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bandou.app.zxlChooseMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cb02354e-9483-4ded-accd-419876995cef";
+				PROVISIONING_PROFILE_SPECIFIER = bandou_dev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		92C587421FBA8CD500D00BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D212FAC5933A1A0A427ECE5F /* Pods-ZXLChoosePhoto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ePayProject/ThirdParty/sdk",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = ePayProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ePayProject/ThirdParty/sdk/UMessage_Sdk_1.5.0a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bandou.app.zxlChooseMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C587241FBA8CD500D00BC1 /* Build configuration list for PBXProject "ZXLChooseMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C5873E1FBA8CD500D00BC1 /* Debug */,
+				92C5873F1FBA8CD500D00BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C587401FBA8CD500D00BC1 /* Build configuration list for PBXNativeTarget "ZXLChooseMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C587411FBA8CD500D00BC1 /* Debug */,
+				92C587421FBA8CD500D00BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92C587211FBA8CD500D00BC1 /* Project object */;
+}
